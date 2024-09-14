@@ -1,0 +1,43 @@
+.App{
+    text-align: center;
+    margin-top: 1%;
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.board-row{
+    display: flex;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    margin: 1px;
+    font-size: 25px;
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    color: brown;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: brown;
+}
+body{
+    background-color: rgba(255, 228, 196, 0.382);
+}
+.winner{
+ color: brown;
+ font-size: 30px;
+}
+.Btn{
+    padding: 8px 40px;
+    background-color: burlywood;
+    color: brown;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
